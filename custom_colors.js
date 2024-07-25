@@ -1,4 +1,4 @@
-function exportCustomColors({ addBase, theme }) {
+function ({ addBase, theme }) {
   function extractColorVars(colorObj, colorGroup = "") {
     return Object.keys(colorObj).reduce((vars, colorKey) => {
       const value = colorObj[colorKey];
